@@ -1,0 +1,196 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mark Sheet</title>
+  </head>
+  <body>
+    <div class="conatainer">
+      <div>
+        <div class="nave">
+          <div class="header">
+            <li class="bave">HOME</li>
+            <li class="bave">ABOUT</li>
+            <li class="bave">SERVICE</li>
+            <li class="bave">CONTACT</li>
+
+            <button class="iglo">
+              <a href="https://atifumer.github.io/porrtfolioAtif/">
+                Visit My Portfolio</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1 class="MARKSH">DIGITAL <span class="spa">CALCULATE</span></h1>
+      </div>
+
+      <div class="inputs">
+        <div class="chap1">
+          <label>Chemistry 100</label>
+          <input id="bookone" type="number" name="" placeholder="Marks" />
+        </div>
+        <div class="chap2">
+          <label>Physics 100</label>
+          <input id="booktow" type="number" name="" placeholder="Marks" />
+        </div>
+        <div class="chap3">
+          <label>Math 100</label>
+          <input id="bookthree" type="number" name="" placeholder="Marks" />
+        </div>
+        <div class="chap4">
+          <label>English 100</label>
+          <input id="bookfour" type="number" name="" placeholder="Marks" />
+        </div>
+        <div class="chap5">
+          <label> Botany 100</label>
+          <input id="bookfive" type="number" name="" placeholder="Marks" />
+        </div>
+        <div>
+          <button class="iglo" onclick=" calculate()">Calculate</button>
+        </div>
+      </div>
+      <div class="rows">
+        <table class="chap">
+          <tr class="chap">
+            <td class="chap1">Total Marks:</td>
+            <td class="remsa">500</td>
+          </tr>
+          <tr class="chap">
+            <td class="chap1">Obtain Marks:</td>
+            <td class="remsa" id="Obtain"></td>
+          </tr>
+          <tr class="chap">
+            <td class="chap1">Percentage:</td>
+            <td class="remsa" id="per"></td>
+          </tr>
+          <tr class="chap">
+            <td class="chap1">Grade:</td>
+            <td class="remsa" class="chap1" id="grade"></td>
+          </tr>
+          <tr class="chap">
+            <td class="chap1">Remarks:</td>
+            <td class="remsa" id="remak"></td>
+          </tr>
+        </table>
+      </div>
+      <!-- footerrrrrr -->
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6 class="reed">About</h6>
+              <p class="text-justify">
+                Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative
+                to help the upcoming programmers with the code. Scanfcode
+                focuses on providing the most efficient code or snippets as the
+                code wants to be simple. We will help programmers build up
+                concepts in different programming languages that include C, C++,
+                Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and
+                Algorithm.
+              </p>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+              <h6 id="reeed">Categories</h6>
+              <ul class="footer-links">
+                <li>
+                  <a href="https://atifumer.github.io/porrtfolioAtif/">C</a>
+                </li>
+                <li>
+                  <a href="https://atifumer.github.io/Piirivalveamet/"
+                    >UI Design</a
+                  >
+                </li>
+                <li>
+                  <a href="http://scanfcode.com/category/back-end-development/"
+                    >PHP</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="http://scanfcode.com/category/java-programming-language/"
+                    >Java</a
+                  >
+                </li>
+                <li>
+                  <a href="http://scanfcode.com/category/android/">Android</a>
+                </li>
+                <li>
+                  <a href="https://atifumer.github.io/BR-Architects/"
+                    >Templates</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+              <h6 id="reeed">Quick Links</h6>
+              <ul class="footer-links">
+                <li>
+                  <a href="https://atifumer.github.io/porrtfolioAtif/"
+                    >About Us</a
+                  >
+                </li>
+                <li>
+                  <a href="https://atifumer.github.io/porrtfolioAtif/"
+                    >Contact Us</a
+                  >
+                </li>
+                <li>
+                  <a href="http://scanfcode.com/contribute-at-scanfcode/"
+                    >Contribute</a
+                  >
+                </li>
+                <li>
+                  <a href="http://scanfcode.com/privacy-policy/"
+                    >Privacy Policy</a
+                  >
+                </li>
+                <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">
+                Copyright &copy; 2022 All Rights Reserved by
+                <a href="#">Scanfcode</a>.
+              </p>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li>
+                  <a class="facebook" href="#"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a class="dribbble" href="#"
+                    ><i class="fa fa-dribbble"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="linkedin" href="#"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="page.js"></script>
+  </body>
+</html>
